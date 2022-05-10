@@ -1,4 +1,4 @@
-# ```  React basics and fundamentals: ```
+# `React basics and fundamentals:`
 <!-- 
  ```diff
 - text in red
@@ -27,4 +27,4 @@
 - JSX (JSX is a syntax extension for JavaScript. It was written to be used with React. JSX code looks a lot like HTML)
 - JSX Elements (A basic unit of JSX is called a JSX element)
 - JSX elements are treated as JavaScript expressions. That means that a JSX element can be saved in a variable, passed to a function, stored in an object or array…you name it.
-- Attributes In JSX (`const title = <h1 id='title'>Introduction to React.js: Part I</h1>;)
+- Attributes In JSX (`const title = <h1 id='title'>Introduction to React.js: Part I</h1>;`)
