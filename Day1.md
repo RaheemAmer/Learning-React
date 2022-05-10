@@ -1,5 +1,13 @@
-# React basics and fundamentals:
-
+# ```  React basics and fundamentals: ```
+<!-- 
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+-->
 ### Why React?
 - React.js is a JavaScript library. It was developed by engineers at Facebook.
 - React is fast. Apps made in React can handle complex updates and still feel quick and responsive.
@@ -12,8 +20,11 @@
 - In this case, it means that JSX is not valid JavaScript. Web browsers can’t read it!
 - If a JavaScript file contains JSX code, then that file will have to be compiled. That means that before the file reaches a web browser, a JSX compiler will translate any JSX into regular JavaScript. 
 
+### What’s the difference between React and ReactDOM?
+- React is a JavaScript library for building User Interfaces and ReactDOM is the JavaScript library that allows React to interact with the DOM.
+
 ### React basics:
 - JSX (JSX is a syntax extension for JavaScript. It was written to be used with React. JSX code looks a lot like HTML)
 - JSX Elements (A basic unit of JSX is called a JSX element)
 - JSX elements are treated as JavaScript expressions. That means that a JSX element can be saved in a variable, passed to a function, stored in an object or array…you name it.
-- Attributes In JSX (const title = <h1 id='title'>Introduction to React.js: Part I</h1>;)
+- Attributes In JSX (`const title = <h1 id='title'>Introduction to React.js: Part I</h1>;)
