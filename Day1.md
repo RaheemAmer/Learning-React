@@ -28,3 +28,7 @@
 - JSX Elements (A basic unit of JSX is called a JSX element)
 - JSX elements are treated as JavaScript expressions. That means that a JSX element can be saved in a variable, passed to a function, stored in an object or array…you name it.
 - Attributes In JSX (`const title = <h1 id='title'>Introduction to React.js: Part I</h1>;`)
+- Nested JSX (` const theExample = (<a href="https://www.example.com"> <h1> Click me! </h1> </a>); `)
+- JSX Outer Elements -> There’s a rule that we haven’t mentioned: a JSX expression must have exactly one outermost element.
+###### JSX Outer Elements Example:
+(`const paragraphs = (<div id="i-am-the-outermost-element"><p>I am a paragraph.</p><p>I, too, am a paragraph.</p></div>); `)
